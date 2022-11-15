@@ -123,6 +123,11 @@ namespace ParkingMeters.Controllers
                 return NotFound();
             }
 
+            if (parkingMeter.Status != true)
+            {
+                return BadRequest();
+            }
+
             parkingMeter.Usages++;
             await _context.SaveChangesAsync();
 
