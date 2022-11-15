@@ -54,11 +54,12 @@ namespace ParkingMeters.Controllers
             _context.ParkingMeters.Add(newParkingMeter);
             await _context.SaveChangesAsync();
 
-            return Ok( new ParkingMeterDto() { 
-                Id= newParkingMeter.Id,
+            return Ok(new ParkingMeterDto()
+            {
+                Id = newParkingMeter.Id,
                 Address = newParkingMeter.Address,
-                Status= newParkingMeter.Status,
-                Usages= newParkingMeter.Usages,
+                Status = newParkingMeter.Status,
+                Usages = newParkingMeter.Usages,
             });
         }
 
