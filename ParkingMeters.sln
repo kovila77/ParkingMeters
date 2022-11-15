@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingMeters", "ParkingMeters\ParkingMeters.csproj", "{204BE548-62C9-41E0-AF64-4C4E2C0AEA04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{204BE548-62C9-41E0-AF64-4C4E2C0AEA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204BE548-62C9-41E0-AF64-4C4E2C0AEA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204BE548-62C9-41E0-AF64-4C4E2C0AEA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204BE548-62C9-41E0-AF64-4C4E2C0AEA04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBC468FE-9A0D-4F3D-827A-5114E1C01FEB}
+	EndGlobalSection
+EndGlobal
